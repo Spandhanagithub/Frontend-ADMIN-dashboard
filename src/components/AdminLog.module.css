@@ -1,0 +1,133 @@
+.adminlogContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 400px;
+  background-color: white;
+  border-color: black;
+  box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.1),
+    0 0 20px rgba(0, 0, 0, 0.1),
+    0 0 30px rgba(0, 0, 0, 0.1),
+    0 0 40px rgba(0, 0, 0, 0.1),
+    0 0 50px rgba(0, 0, 0, 0.1),
+    0 0 60px rgba(0, 0, 0, 0.1);
+}
+
+.adminlogContainer:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.adminlogTitle {
+  color: rgb(8, 8, 8);
+}
+
+.adminlogImage {
+  max-width: 100%;
+}
+
+.adminlogForm {
+  width: 300px;
+}
+
+.adminlogInputGroup {
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.adminlogInputGroup1 {
+  margin-bottom: 10px;
+}
+
+.adminlogInputGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.adminlogRemember {
+  margin-top: 30px;
+}
+
+.adminlogInputGroup input {
+  width: 100%;
+  padding: 8px;
+}
+
+.adminlogActions {
+  margin-top: 15px;
+}
+
+.adminlogActions button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+.adminlogActions1 {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.adminlogForgetPassword {
+  display: inline-block;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.adminlogForgetPassword {
+  margin-left: auto;
+}
+
+.adminlogForgetPassword:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .adminlogContainer {
+      width: 90%;
+      max-width: 400px;
+      margin: 0 auto;
+  }
+
+  .adminlogImage {
+      max-width: 100%;
+  }
+
+  .adminlogForm {
+      width: 100%;
+  }
+
+  .adminlogInputGroup {
+      margin-left: 0;
+  }
+
+  .adminlogActions button {
+      margin-left: 0;
+      width: 100%;
+  }
+
+  .adminlogForgetPassword {
+      margin-left: 0;
+      text-align: center;
+  }
+}

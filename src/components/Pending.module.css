@@ -1,0 +1,108 @@
+/* Pending.css */
+
+.containermsg {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: 10px;
+}
+
+.regionSelection {
+  margin-bottom: 20px;
+  width: 500px;
+}
+.select-region,
+.select-country,
+.select-client,
+.upload-invoice {
+  margin-bottom: 15px;
+}
+.regionDropdown {
+  padding: 8px;
+  font-size: 16px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width:300px;
+
+}
+
+.selecto {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px;
+  
+}
+
+.serviceRequestDetails {
+  margin-top: 20px;
+}
+
+.serviceRequest {
+  margin-bottom: 10px;
+  margin-left: 200px;
+}
+
+.messageFeature {
+  margin-bottom: 20px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.messagefeat {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.msg {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.water textarea {
+  width: 500px;
+  height: 80px;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Smsg {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Smsg:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styling as needed */
+#regionpending{
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+#countrypending{
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px; 
+}

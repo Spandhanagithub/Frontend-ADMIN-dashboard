@@ -1,0 +1,72 @@
+/* table.css */
+
+/* Styles for the form section */
+.form-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the box containing the service type dropdown */
+  .box {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the box containing the table */
+  .boxww {
+  
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the select dropdown */
+  .serviceType {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Styles for table cells */
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for table headers */
+  th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Styles for the submit button */
+  .submiss {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cls {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cls:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,61 @@
+.sidebar {
+  width: 100%;
+  max-width: 250px; 
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarMenuItem {
+  cursor: pointer;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebarMenuItem:hover {
+  background-color: #413f3f;
+}
+
+.dashboardContent {
+  padding: 20px;
+}
+
+.dashboardComponent {
+  background-color: #83f2ee;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.selectCountryCoustomer {
+  margin-bottom: 20px;
+}
+
+.selectCountryCoustomer label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.selectCountryCoustomer select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.selectCountryCoustomer select:hover,
+.selectCountryCoustomer select:focus {
+  border-color: #007bff;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 250px; 
+  }
+  
+  .dashboardContent {
+    margin-left: 250px; 
+  }
+}

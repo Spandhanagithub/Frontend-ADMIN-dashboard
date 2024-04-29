@@ -1,0 +1,112 @@
+.customersContainer {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.selectRegion,
+.selectCountryCoustomer,
+.selectClient {
+  margin-bottom: 20px;
+}
+
+.selectRegion label,
+.selectCountryCoustomer label,
+.selectClient label {
+  display: block;
+  font-weight: bold;
+}
+
+.selectRegion select,
+.selectCountryCoustomer select,
+.selectClient select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+.selectCountry {
+  margin-bottom: 20px;
+}
+
+.selectCountry label {
+  display: block;
+  font-weight: bold;
+}
+
+.selectCountry select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.selectCountry select:hover,
+.selectCountry select:focus {
+  border-color: #007bff;
+}
+
+.selectRegion select:hover,
+.selectRegion select:focus,
+.selectCountryCoustomer select:hover,
+.selectCountryCoustomer select:focus,
+.selectClient select:hover,
+.selectClient select:focus {
+  border-color: #007bff;
+}
+
+.clientDetails {
+  margin-top: 20px;
+}
+
+.clientDetails h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.clientDetails p {
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .customersContainer {
+    padding: 10px;
+  }
+
+  .selectRegion select,
+  .selectCountryCoustomer select,
+  .selectClient select {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .customersContainer {
+    border-radius: 0;
+  }
+
+  .selectRegion,
+  .selectCountryCoustomer,
+  .selectClient {
+    margin-bottom: 15px;
+  }
+
+  .selectRegion select,
+  .selectCountryCoustomer select,
+  .selectClient select {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .clientDetails h2 {
+    font-size: 18px;
+  }
+}
